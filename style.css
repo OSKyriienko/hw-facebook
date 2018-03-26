@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+header {
+	background-color: #405993;
+	padding: 0 20%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	color: white;
+	position: relative;
+	top: 40px;
+	font-family: sans-serif;
+}
+
+.header-form {
+	float: right;
+	padding: 10px 0;
+	color: white;
+}
+
+.header-table {
+	border-spacing: 15px 5px;
+}
+
+.header-table td {
+	border-spacing: 15px 5px;
+	font-size: 13px;
+}
+.header-form .header-table td a {
+	color: white;
+	/*text-decoration: none;*/
+}
+
+.header-form .header-table td input {
+	height: 23px;
+}
+
+.header-form .header-table td a.forgot {
+	color: #869ed0;
+}
+
+.log-in {
+	border: 1px solid #2c4783;
+	padding: 3px 5px;
+	background-color: #446bb6;
+	color: white; 
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+main {
+	background-color: #eaebee;
+	padding: 80px 100px;
+}
+main section {
+	width: 60%;
+	max-width: 550px;
+	margin: 0 auto;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+main .section-up {
+	padding: 20px;
+	border-bottom: 1px solid #cccccc;
+}
+
+main .section-up h4{
+	margin-bottom: 10px;
+}
+
+main .section-up-second {
+	padding: 10px 40px;
+}
+
+main .section-up-second p {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+main .section-up-second .email {
+	margin-top: 5px;
+	width: 50%;
+}
+
+main .section-down {
+	background-color: #f2f2f2;
+	/*padding: 10px 15px;  */
+	text-align: right;
+}
+
+main .section-down input.search{
+	background-color: #405993;
+	color: white;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+main .section-down input.cancel{
+	background-color: white;
+	color: #333333;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	margin: 5px;
+}
+
+footer {
+	
+}
+.footer-wrapper {
+	width: 60%;
+	padding-top: 10%;
+	bottom: 20px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.footer-wrapper-top-part {
+	display: flex;
+	align-items: flex-start;	
+}
+
+.footer-wrapper-top-part .plus{
+	padding: 0 5px;
+	margin-left: 10px;
+}	
+
+.footer-ul-lang {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+footer li {
+	padding-right: 5px;
+}
+
+footer li a {
+	color: #3e5089;
+	font-size: 13px;
+}
+
+.footer-ul-nav {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 10px 0 20px; 
+}
+
+.footer-ul-nav a {
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
